@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Views\Forms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Forms\FormStatementSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Forms\FormStatementTransactions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Forms\_FormAddStatementType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Forms\_FormCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Forms\_FormCategoryDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Forms\_FormStatementTransactionsDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
