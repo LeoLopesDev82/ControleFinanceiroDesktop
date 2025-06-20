@@ -35,6 +35,7 @@ namespace ControleFinanceiroDesktop.Services.Header
                         join c in _context.Categories
                             on s.EntryId equals c.Id into gj
                         from category in gj.DefaultIfEmpty()
+                        orderby s.TransactionDate
                         select new StatementGridDto
                         {
                             Id = s.Id,
@@ -43,7 +44,7 @@ namespace ControleFinanceiroDesktop.Services.Header
                             Amount = s.Amount,
                             Description = s.Description,
                             EntryId = s.EntryId,
-                            EntryDescription = category != null ? category.Description : null                            
+                            EntryDescription = category != null ? category.Description : null
                         };
 
             return query.ToList();

@@ -134,3 +134,4 @@ C:\Users\LeonardoL\source\repos\ControleFinanceiroDesktop\bin\Debug\net8.0-windo
 C:\Users\LeonardoL\source\repos\ControleFinanceiroDesktop\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
 C:\Users\LeonardoL\source\repos\ControleFinanceiroDesktop\bin\Debug\net8.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
 C:\Users\LeonardoL\source\repos\ControleFinanceiroDesktop\bin\Debug\net8.0-windows\EPPlus.System.Drawing.dll
+C:\Users\LeonardoL\source\repos\ControleFinanceiroDesktop\obj\Debug\net8.0-windows\ControleFinanceiroDesktop.sourcelink.json

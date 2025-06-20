@@ -15,6 +15,7 @@ namespace ControleFinanceiroDesktop.Services.CategoryServices
         public List<ListItemDto> GetList()
         {
             return _context.Categories
+                .OrderBy(c => c.Description)
                 .Select(c => new ListItemDto
                 {
                     Id = c.Id,
