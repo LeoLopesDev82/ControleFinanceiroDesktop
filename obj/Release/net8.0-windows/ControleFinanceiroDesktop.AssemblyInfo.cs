@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ControleFinanceiroDesktop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a99d0cdba1f4de1893de0ff45e9c53d7b5c8e1c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bcada78612c7bd245ac1061df3c7c86bcaf5b5a4")]
 [assembly: System.Reflection.AssemblyProductAttribute("ControleFinanceiroDesktop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ControleFinanceiroDesktop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

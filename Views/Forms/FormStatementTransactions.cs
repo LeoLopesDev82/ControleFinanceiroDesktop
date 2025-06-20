@@ -182,10 +182,11 @@ namespace ControleFinanceiroDesktop.Views
             {
                 if (row.IsNewRow) continue;
 
-                string transactionDate = row.Cells[1].Value?.ToString() ?? "";
+                string transactionDate = row.Cells[1].Value?.ToString()?.Trim() ?? "";
+                string dueDate = row.Cells[2].Value?.ToString()?.Trim() ?? "";
                 string description = row.Cells[3].Value?.ToString()?.Trim() ?? "";
-                string amount = row.Cells[5].Value?.ToString() ?? "";
-                string key = $"{transactionDate}|{description}|{amount}";
+                string amount = row.Cells[5].Value?.ToString()?.Trim() ?? "";
+                string key = $"{transactionDate}|{dueDate}|{description}|{amount}";
 
                 if (!duplicates.ContainsKey(key)) duplicates[key] = new List<DataGridViewRow>();
 
@@ -194,19 +195,22 @@ namespace ControleFinanceiroDesktop.Views
 
             foreach (var group in duplicates.Values)
             {
-                if (group.Count <= 1) continue; 
+                if (group.Count <= 1) continue;
 
                 foreach (var row in group)
                 {
-                    row.Cells[1].Style.BackColor = Color.Red;
-                    row.Cells[3].Style.BackColor = Color.Red;
+                    row.Cells[1].Style.BackColor = Color.Red; 
+                    row.Cells[2].Style.BackColor = Color.Red; 
+                    row.Cells[3].Style.BackColor = Color.Red; 
+                    row.Cells[5].Style.BackColor = Color.Red; 
 
                     row.Cells[1].Style.ForeColor = Color.White;
+                    row.Cells[2].Style.ForeColor = Color.White;
                     row.Cells[3].Style.ForeColor = Color.White;
+                    row.Cells[5].Style.ForeColor = Color.White;
                 }
             }
         }
-
 
         #endregion
 
