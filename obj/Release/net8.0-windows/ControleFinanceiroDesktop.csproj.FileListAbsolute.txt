@@ -134,3 +134,4 @@ C:\Users\LeonardoL\source\repos\ControleFinanceiroDesktop\obj\Release\net8.0-win
 C:\Users\LeonardoL\source\repos\ControleFinanceiroDesktop\obj\Release\net8.0-windows\ControleFinanceiroDesktop.pdb
 C:\Users\LeonardoL\source\repos\ControleFinanceiroDesktop\obj\Release\net8.0-windows\ControleFinanceiroDesktop.genruntimeconfig.cache
 C:\Users\LeonardoL\source\repos\ControleFinanceiroDesktop\obj\Release\net8.0-windows\ref\ControleFinanceiroDesktop.dll
+C:\Users\LeonardoL\source\repos\ControleFinanceiroDesktop\obj\Release\net8.0-windows\ControleFinanceiroDesktop.sourcelink.json
